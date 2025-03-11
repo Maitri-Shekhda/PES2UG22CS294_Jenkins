@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Running Tests'
                 sh './hello'
-                echo 'Test Stage Successful'
+                echo 'Test Stage Successful"
             }
             post {
                 always {
